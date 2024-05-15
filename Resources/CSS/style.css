@@ -8,6 +8,7 @@ body {
     width: 100%;
     align-items: center;
     text-align: center;
+    background-color: black;
 }
 
 header, main, footer {
@@ -15,15 +16,21 @@ header, main, footer {
     background-color: black;
 }
 
+div {
+    margin: 15px;
+}
+
 h1 {
     color: white;
     font-size: 50px;
+    padding: 20px 0;
 }
 
 h2 {
     color: white;
     font-size: 42px;
     font-weight: 300;
+    padding: 20px 0 40px;
 }
 
 a {
@@ -31,9 +38,16 @@ a {
     font-size: 16px;
 }
 
+main video{
+    margin: 20px;
+}
+
 p {
     font-size: 21px;
     color: grey;
+    padding: 0 10px 15px; 
 }
 
-//nog toevoegen: marges en fam-icon onderin
+footer p{
+    text-align: right;
+}
